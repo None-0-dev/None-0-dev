@@ -42,8 +42,4 @@ Junior Developer
         target="_blank" rel="noreferrer"><img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
             alt="MySQL" title="MySQL" width="36" height="36" /></a>
-<<<<<<< HEAD
 </p>
-=======
-</p>
->>>>>>> 196b0f492bcd73263f80f2d400a62d6249d716a6
