@@ -4,11 +4,42 @@ Hi 👋 My name is Helios Saia
 Junior Developer
 ----------------
 
-*   🌍  I'm based in Naples
-*   🖥️  See my portfolio at [MyPortfolio](http://none-0-dev.github.io/None-0-dev/)
-*   ✉️  You can contact me at [helios.saia03@gmail.com](mailto:helios.saia03@gmail.com)
-*   🧠  I'm currently learning SpringBoot Framework
+* 🌍 I'm based in Naples
+* 🖥️ See my portfolio at [MyPortfolio](http://none-0-dev.github.io/None-0-dev/)
+* ✉️ You can contact me at [helios.saia03@gmail.com](mailto:helios.saia03@gmail.com)
+* 🧠 I'm currently learning SpringBoot Framework
 <p align="left">
-<a href="https://spring.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/spring-boot-colored.svg" alt="Spring Boot" title="Spring Boot" width="36" height="36" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" alt="Git" title="Git" width="36" height="36" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" alt="Python" title="Python" width="36" height="36" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JavaScript" title="JavaScript" width="36" height="36" /></a><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" alt="Java" title="Java" width="36" height="36" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" title="VS Code" width="36" height="36" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML5" title="HTML5" width="36" height="36" /></a><a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" alt="Vite" title="Vite" width="36" height="36" /></a><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" alt="NodeJS" title="NodeJS" width="36" height="36" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" alt="PostgreSQL" title="PostgreSQL" width="36" height="36" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" alt="MySQL" title="MySQL" width="36" height="36" /></a>
-                  </p>
-                  
+    <a href="https://spring.io/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/spring-boot-colored.svg"
+            alt="Spring Boot" title="Spring Boot" width="36" height="36" />
+    </a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"
+            alt="Git" title="Git" width="36" height="36" />
+    </a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
+            alt="Python" title="Python" width="36" height="36" />
+    </a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
+            alt="JavaScript" title="JavaScript" width="36" height="36" />
+    </a><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg"
+            alt="Java" title="Java" width="36" height="36" /></a><a href="https://code.visualstudio.com/"
+        target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg"
+            alt="VS Code" title="VS Code" width="36" height="36" /></a><a
+        href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+            alt="HTML5" title="HTML5" width="36" height="36" /></a><a href="https://vitejs.dev/" target="_blank"
+        rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg"
+            alt="Vite" title="Vite" width="36" height="36" /></a><a href="https://nodejs.org/en/" target="_blank"
+        rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
+            alt="NodeJS" title="NodeJS" width="36" height="36" /></a><a href="https://www.postgresql.org/"
+        target="_blank" rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
+            alt="PostgreSQL" title="PostgreSQL" width="36" height="36" /></a><a href="https://www.mysql.com/"
+        target="_blank" rel="noreferrer"><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
+            alt="MySQL" title="MySQL" width="36" height="36" /></a>
+</p>
