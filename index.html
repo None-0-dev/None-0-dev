@@ -396,12 +396,12 @@
                                 <h3>Telefono</h3>
                                 <p>(+39) 331 530 6053</p>
                             </div>
-                            <button class="btn btn-primary btn-sm ms-auto" onclick="copiaTesto()">📋 Copy</button>
+                            <button class="btn btn-primary ms-auto" style="width: 65px; height: 40px" onclick="copiaNum()">Copy</button>
                         </div>
 
-                        <!-- Toast -->
+                        <!-- Funzionamento dietro tasto Copy N Telefono  -->
                         <div class="toast-container position-fixed bottom-0 end-0 p-3">
-                            <div id="toastCopia" class="toast align-items-center text-bg-success border-0" role="alert">
+                            <div id="toastNum" class="toast align-items-center text-bg-success border-0" role="alert">
                                 <div class="d-flex">
                                     <div class="toast-body">✅ Numero copiato!</div>
                                     <button type="button" class="btn-close btn-close-white me-2 m-auto"
@@ -410,15 +410,6 @@
                             </div>
                         </div>
 
-                        <script>
-                            function copiaTesto() {
-                              navigator.clipboard.writeText("331 530 6053");
-
-                              const toast = new bootstrap.Toast(document.getElementById("toastCopia"));
-                              toast.show();
-                            }
-                        </script>
-
                         <!---------------------------- Email ------------------------------>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-envelope flex-shrink-0"></i>
@@ -426,7 +417,42 @@
                                 <h3>Email</h3>
                                 <p>helios.saia03@gmail.com</p>
                             </div>
+                            <button class="btn btn-primary ms-auto" style="width: 65px; height: 40px" onclick="copiaEmail()">Copy</button>
                         </div>
+
+                        <!-- Funzionamento dietro tasto Copy Email -->
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="toastEmail" class="toast align-items-center text-bg-success border-0" role="alert">
+                                <div class="d-flex">
+                                    <div class="toast-body">✅ Email Copiata!</div>
+                                    <button type="button" class="btn-close btn-close-white me-2 m-auto"
+                                            data-bs-dismiss="toast"></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <script>
+                            var durata = 1000; // Durata Apparizione Messaggio
+
+                            function copiaNum() {
+                                navigator.clipboard.writeText("331 530 6053");
+
+                                const toast = new bootstrap.Toast(document.getElementById("toastNum"), {
+                                    delay: durata
+                                });
+                                toast.show();
+                            }
+
+                            function copiaEmail() {
+                                navigator.clipboard.writeText("helios.saia03@gmail.com");
+
+                                const toast = new bootstrap.Toast(document.getElementById("toastEmail"), {
+                                    delay: durata
+                                });
+                                toast.show();
+                            }
+                        </script>
 
                     </div>
                 </div>
