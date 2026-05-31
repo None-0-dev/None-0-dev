@@ -24,13 +24,13 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!------------------------------------------NavBar Laterale------------------------------------------>
     <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
 <body class="index-page">
 
+<!------------------------------------------NavBar Laterale------------------------------------------>
 <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
@@ -84,7 +84,7 @@
     <!-- About Section -->
     <section id="about" class="about section">
 
-        <!-- Section Title -->
+        <!-------------------------------- Titolo Introduzione------------------------------- -->
         <div class="container section-title" data-aos="fade-up">
             <h2>About</h2>
             <p>Sviluppatore Software con precedente esperienza in manifattura aerospaziale.
@@ -100,9 +100,11 @@
                 <div class="col-lg-8 content">
                     <h2>Web Developer.</h2>
                     <p class="fst-italic py-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua.
+                        Hi, I'm Elio, a web developer with a passion for creating dynamic and responsive websites. With
+                        a strong background in programming and a keen eye for design, I specialize in crafting
+                        user-friendly interfaces that provide an exceptional user experience. Whether it's building a
+                        simple portfolio or developing complex web applications, I am dedicated to delivering
+                        high-quality solutions that meet the needs of my clients.
                     </p>
                     <div class="row">
                         <div class="col-lg-6">
@@ -110,10 +112,8 @@
                                 <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong>
                                     <span>3 Maggio 2000</span></li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Napoli</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a
-                                        href="https://www.linkedin.com/in/elio-saia/">Elio Saia</a></span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
-                                    <span>331 530 6053</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Cell:</strong>
+                                    <span>(+39)331 530 6053</span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
@@ -232,10 +232,10 @@
             <div class="row">
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="resume-title">Sumary</h3>
+                    <h3 class="resume-title">Summary</h3>
 
                     <div class="resume-item pb-0">
-                        <h4>Brandon Johnson</h4>
+                        <h4>Elio Saia</h4>
                         <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
                             developing user-centered digital/print marketing material from initial concept to final,
                             polished deliverable.</em></p>
@@ -345,7 +345,7 @@
                                 <a href="assets/img/portfolio/app-1.jpg" title="Custom ToolHead"
                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                         class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                <a href="tool-head.html" title="More Details" class="details-link"><i
                                         class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
@@ -367,7 +367,8 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>Contact</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <p>Per informazioni o collaborazioni, non esitare a contattarmi!</p>
+            <p>Sono disponibile a ricevere chiamate dalle: 8:00 - 12:00 / 13:30 - 17:00</p>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -377,33 +378,56 @@
                 <div class="col-lg-5">
 
                     <div class="info-wrap">
-                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                            <i class="bi bi-geo-alt flex-shrink-0"></i>
-                            <div>
-                                <h3>Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                            </div>
-                        </div><!-- End Info Item -->
 
-                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <!---------------------------- Linkedin ------------------------------>
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                            <i class="bi bi-linkedin flex-shrink-0"></i>
+                            <div>
+                                <h3>LinkedIn</h3>
+                                <p><a href="https://www.linkedin.com/in/elio-saia/">Elio Saia</a></p>
+                            </div>
+                        </div>
+
+                        <!---------------------------- N Telefono ------------------------------>
+
+                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
-                                <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <h3>Telefono</h3>
+                                <p>(+39) 331 530 6053</p>
                             </div>
-                        </div><!-- End Info Item -->
+                            <button class="btn btn-primary btn-sm ms-auto" onclick="copiaTesto()">📋 Copy</button>
+                        </div>
 
+                        <!-- Toast -->
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="toastCopia" class="toast align-items-center text-bg-success border-0" role="alert">
+                                <div class="d-flex">
+                                    <div class="toast-body">✅ Numero copiato!</div>
+                                    <button type="button" class="btn-close btn-close-white me-2 m-auto"
+                                            data-bs-dismiss="toast"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            function copiaTesto() {
+                              navigator.clipboard.writeText("331 530 6053");
+
+                              const toast = new bootstrap.Toast(document.getElementById("toastCopia"));
+                              toast.show();
+                            }
+                        </script>
+
+                        <!---------------------------- Email ------------------------------>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
-                                <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <h3>Email</h3>
+                                <p>helios.saia03@gmail.com</p>
                             </div>
-                        </div><!-- End Info Item -->
+                        </div>
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
-                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
@@ -450,6 +474,7 @@
         </div>
 
     </section><!-- /Contact Section -->
+
 
 </main>
 
