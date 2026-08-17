@@ -1,3 +1,6 @@
+console.log('index.js caricato');
+console.log('form trovato:', document.querySelector('.php-email-form'));
+
 function sendMail() {
     var params = {
     name: document.getElementById("name").value,
