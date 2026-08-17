@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     const serviceID = 'service_8c4t8le';
-    const templateID = 'template_zeq3tv8';
+    const templateID = 'template_4ufyr8q';
 
     emailjs.send(serviceID, templateID, params)
       .then(function (res) {
