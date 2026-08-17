@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const form = document.querySelector('.php-email-form');
+    const form = document.getElementById('contact-form');
   if (!form) {
     console.log('Form non trovato');
     return;
