@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
     if (sentMessage) sentMessage.style.display = 'none';
 
     const params = {
-      name: document.getElementById('name-field').value,
-      email: document.getElementById('email-field').value,
-      subject: document.getElementById('subject-field').value,
-      message: document.getElementById('message-field').value
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      subject: document.getElementById('subject').value,
+      message: document.getElementById('message').value
     };
 
     const serviceID = 'service_8c4t8le';
